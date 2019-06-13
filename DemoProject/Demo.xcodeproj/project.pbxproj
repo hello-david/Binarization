@@ -169,7 +169,7 @@
 			name = "[CP-User] Pack Framework";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "sh ${SRCROOT}/../xcodebuild_pack.sh";
+			shellScript = "sh ${SRCROOT}/../cocoapackager_pack.sh";
 		};
 		426B8D73B11BC5DA47DFD79B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
