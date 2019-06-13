@@ -9,7 +9,7 @@ TARGET=$1
 fi
 
 #定义一下用到的变量,接下去不使用外部环境变量
-OUTPUT_FLODER="${PROJECT_DIR}/../RelaseFameworks"
+OUTPUT_FLODER="${PROJECT_DIR}/../ReleaseFameworks"
 PROJECT="${PODS_ROOT}/Pods.xcodeproj"
 BUILD_DIR="${BUILD_DIR}"
 BUILD_ROOT="${BUILD_ROOT}"
