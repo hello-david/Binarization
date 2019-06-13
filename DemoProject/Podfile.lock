@@ -1,0 +1,18 @@
+PODS:
+  - HelloWorld (1.0):
+    - HelloWorld/Defualt (= 1.0)
+  - HelloWorld/Defualt (1.0)
+
+DEPENDENCIES:
+  - HelloWorld (from `../HelloWorld.podspec`)
+
+EXTERNAL SOURCES:
+  HelloWorld:
+    :path: "../HelloWorld.podspec"
+
+SPEC CHECKSUMS:
+  HelloWorld: 0b7a99c66dec517b8a14e6b58b4f1f99bac93740
+
+PODFILE CHECKSUM: 56a051b3d970c9d09d0d6b230dd35287164506e7
+
+COCOAPODS: 1.7.0
