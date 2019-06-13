@@ -8,7 +8,7 @@ target 'Demo' do
   # Pods for Demo
   pod 'HelloWorld', :path => '../HelloWorld.podspec', :configurations => 'Debug'
 #  script_phase :name => 'Pack Framework', :script => 'ruby ${SRCROOT}/../carthage_pack.rb'
-  script_phase :name => 'Pack Framework', :script => 'sh ${SRCROOT}/../cocoapackager_pack.sh'
-#  script_phase :name => 'Pack Framework', :script => 'sh ${SRCROOT}/../xcodebuild_pack.sh'
+#  script_phase :name => 'Pack Framework', :script => 'sh ${SRCROOT}/../cocoapackager_pack.sh'
+  script_phase :name => 'Pack Framework', :script => 'sh ${SRCROOT}/../xcodebuild_pack.sh'
   
 end

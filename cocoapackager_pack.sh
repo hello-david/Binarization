@@ -3,7 +3,7 @@ TARGET="HelloWorld"
 BUILD_NUMBER=$(/usr/libexec/PlistBuddy -c "Print CFBundleShortVersionString" "$INFOPLIST_FILE")
 SPEC_SOURCES="https://github.com/hello-david/Binarization.git"
 OUTPUT_FLODER="${PROJECT_DIR}/../RelaseFameworks"
-PACKAGER_OUTPUT_FLODER="${PROJECT_DIR}/../${TARGET}-${BUILD_NUMBER}"
+PACKAGER_OUTPUT_FLODER="${PROJECT_DIR}/${TARGET}-${BUILD_NUMBER}"
 
 #使用cocoa package打包
 cd ${SRCROOT}
