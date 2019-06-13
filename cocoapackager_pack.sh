@@ -10,7 +10,7 @@ cd ${SRCROOT}
 pod _1.5.3_ package --spec-sources="${SPEC_SOURCES}" "../${TARGET}.podspec" --verbose --dynamic
 
 #拷贝framework到输出目录上
-cp -R "${PACKAGER_OUTPUT_FLODER}/ios/${TARGET}.framework" ${OUTPUT_FLODER}
+cp -R "${PACKAGER_OUTPUT_FLODER}/ios/${TARGET}.framework" "${OUTPUT_FLODER}/${TARGET}.framework"
 
 #删除Build目录
 rm -rf ${PACKAGER_OUTPUT_FLODER}
